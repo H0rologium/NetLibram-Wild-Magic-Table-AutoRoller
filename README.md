@@ -4,9 +4,13 @@ An autoroller for the NetLibram Wild Magic Table; suitable for D&amp;D or other 
 The program has an internal list of rolls that originate from the Net Libram of Random Magical effects, both versions 1 and two. There is an option to specify which table you would like to roll from. 
 
 **INSTALLATION INSTRUCTIONS:**
+
 *Download the release.zip
+
 *Make sure you have at least java version 8 installed
+
 *Run the .jar file in the zip
+
 
 The table itself was made by Orrex, I claim no ownership over the table itself. You can find the source PDF at
 https://centralia.aquest.com/downloads/NLRMEv2.pdf
