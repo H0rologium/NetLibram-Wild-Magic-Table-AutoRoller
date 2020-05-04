@@ -1,4 +1,4 @@
-# NetLibram-Wild-Magic-Table-AutoRoller
+# NetLibram Wild Magic Table AutoRoller
 An autoroller for the NetLibram Wild Magic Table; suitable for D&amp;D or other tabletop RPGs needing 10,000 random effects.
 
 The program has an internal list of rolls that originate from the Net Libram of Random Magical effects. There is an option to display roll history. Roll results including history can be copied to the clipboard.
