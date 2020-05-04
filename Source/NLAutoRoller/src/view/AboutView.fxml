@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="350.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="roller.AboutController">
+   <children>
+      <ImageView fitHeight="604.0" fitWidth="597.0" layoutX="-128.0" layoutY="-114.0" pickOnBounds="true">
+         <image>
+            <Image url="@background.jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="60.0" layoutY="19.0" strokeType="OUTSIDE" strokeWidth="0.0" text="This program was made by horologium in May 2020. You can find me on reddit as u/Tiny_Desk_Engineer. If you would like to send feedback my way, please message me on reddit or create a thread on the github repo. This program and its source code are provided for free, &quot;As Is&quot;. If you would like to support what I do, please click the &quot;Donate&quot; button below." wrappingWidth="230.146484375" />
+      <Button fx:id="donateBtn" layoutX="148.0" layoutY="150.0" mnemonicParsing="false" onAction="#sendToDonatePage" text="Donate" />
+      <Text layoutX="60.0" layoutY="228.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Press this button below if you want to take a look at the entire PDF." wrappingWidth="230.146484375" />
+      <Button fx:id="sourceBtn" layoutX="149.0" layoutY="279.0" mnemonicParsing="false" onAction="#openSource" text="Source" />
+   </children>
+</AnchorPane>

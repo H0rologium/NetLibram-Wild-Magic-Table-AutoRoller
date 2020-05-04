@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="520.0" prefWidth="520.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="roller.Controller">
+   <children>
+      <ImageView fitHeight="640.0" fitWidth="655.0" layoutX="-56.0" layoutY="-48.0" pickOnBounds="true">
+         <image>
+            <Image url="@background.jpg" />
+         </image>
+      </ImageView>
+      <MenuBar>
+        <menus>
+          <Menu mnemonicParsing="false" text="View">
+            <items>
+              <MenuItem fx:id="showHideToggle" mnemonicParsing="false" onAction="#showOrHide" text="Show/Hide Roll History" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem fx:id="aboutBtn" mnemonicParsing="false" onAction="#showAbout" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <Button fx:id="rollBtn" defaultButton="true" layoutX="104.0" layoutY="173.0" mnemonicParsing="false" onAction="#rollTable" prefHeight="82.0" prefWidth="313.0" text="Roll" textOverrun="WORD_ELLIPSIS">
+         <cursor>
+            <Cursor fx:constant="OPEN_HAND" />
+         </cursor></Button>
+      <TextArea fx:id="rollhistory" editable="false" layoutX="104.0" layoutY="255.0" prefHeight="187.0" prefWidth="313.0" promptText="roll history" visible="false" wrapText="true" />
+      <TextArea fx:id="out" editable="false" layoutX="104.0" layoutY="52.0" prefHeight="121.0" prefWidth="313.0" wrapText="true">
+         <effect>
+            <Blend />
+         </effect>
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextArea>
+      <Button fx:id="clrHistory" layoutX="104.0" layoutY="442.0" mnemonicParsing="false" onAction="#clearRollHistory" prefHeight="25.0" prefWidth="313.0" text="Clear Roll History" visible="false" />
+   </children>
+</AnchorPane>
