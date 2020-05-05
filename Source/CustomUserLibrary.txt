@@ -1,5 +1,6 @@
 Window > Preferences > Java > Buildpath > user libraries
 make a new one using all javafx jars from main folder
 add this to your CLASSPATH
+make sure that under window > preferences > java > buldpath in the order and export tab that all boxes are checked.
 
 use JDK 11, compiler preference 9
