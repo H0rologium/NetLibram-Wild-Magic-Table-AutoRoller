@@ -5,11 +5,7 @@ The program has an internal list of rolls that originate from the Net Libram of 
 
 **INSTALLATION INSTRUCTIONS:**
 
-*Download the NLAutoroller_Release_X.X.jar file from the Releases page. 
-
-*Make sure you have at least java version 8 installed
-
-*Run the .jar file by double clicking it.
+*You can find the latest version as well as installation instructions on the "Releases" page.
 
 
 The table itself was made by Orrex, I claim no ownership over the table itself. You can find the source PDF at
